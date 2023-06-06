@@ -1,0 +1,181 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 jun. 2023, 09:38:10
+    Author     : lossa
+*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  
+}
+body{
+
+    text-align: center;
+    align-content: center;
+    
+    
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #02555A;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.logo {
+margin-left: 30px;
+
+}
+.h2{
+    color: white;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+.header {
+    height: 100vh !important;
+    background-position: center;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+
+}
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #012E40;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sau{
+padding: 200px;
+
+background-repeat: no-repeat;
+background-image: url(plantado.jpg);
+background-size: cover;
+
+}
+.box-contenedor {
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+}
+
+
+.box-contenedor .box img{
+    height: 10rem;
+    width: 10rem;
+    line-height: 3rem;
+
+    justify-content: space-between;
+    color: white;
+    background: none;
+    font-size: 2rem;
+    
+ }
+.box-contenedor .box{
+    height: 20rem;
+    width: 15rem;
+    background: #02555A;
+
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(39, 38, 38, 0.5);
+    margin: 1rem;
+}
+.h3{
+    color: white;
+}
+.box-contenedor .box video{
+    height: 18rem;
+    width: 15rem;
+    line-height: 3rem;
+    text-align: center;
+   border-radius: 15%;
+    color: white;
+    background: none;
+    font-size: 2rem;
+    
+ }
+ .contenedor{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+ 
+ }
+ .cau{
+    padding: 200px;
+    width: 1050px;
+    background-repeat: no-repeat;
+    background-image: url(camaron.avif);
+    background-size: cover;
+ }
+ .box-contenedor .box iframe{
+    height: 18rem;
+    width: 15rem;
+    line-height: 3rem;
+   border-radius: 15%;
+    color: white;
+    background: none;
+    font-size: 2rem;
+ }
+ .cory{
+padding: 200px;
+
+background-repeat: no-repeat;
+background-image: url(gan.jpg);
+background-size: cover;
+
+}
+
+
